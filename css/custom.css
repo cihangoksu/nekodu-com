@@ -1,0 +1,13 @@
+.mission-statement {
+		width: 90%;
+}
+
+@media (max-width: 1060px) {
+    .mission-statement {
+    		width: 95%;
+    }
+}
+
+.copyright-text{
+  text-align: center;
+}

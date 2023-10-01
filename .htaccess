@@ -1,0 +1,2 @@
+RewriteEngine on
+ErrorDocument 404 https://www.nekodu.com/404.html
