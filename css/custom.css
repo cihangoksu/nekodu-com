@@ -6,8 +6,29 @@
     .mission-statement {
     		width: 95%;
     }
+
+    .nekodu-head-text{
+      text-align: center !important;
+      font-size: 2.5em !important;
+    }
+
+    .nekodu-team-img{
+      max-width: 50%;
+      height: auto;
+      margin-left: 25%;
+      margin-right: 25%;
+      }
+}
+
+@media (min-width: 1060px) {
+  .nekodu-head-text{
+
+    font-size: 4.5em !important;
+  }  
 }
 
 .copyright-text{
   text-align: center;
 }
+
+
