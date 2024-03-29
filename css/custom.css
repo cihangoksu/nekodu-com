@@ -1,31 +1,73 @@
 .mission-statement {
-		width: 90%;
+		width: 95%;
 }
 
-@media (max-width: 1060px) {
-    .mission-statement {
-    		width: 95%;
-    }
 
-    .nekodu-head-text{
-      text-align: center !important;
-      font-size: 2.5em !important;
-    }
 
-    .nekodu-team-img{
-      max-width: 50%;
-      height: auto;
-      margin-left: 25%;
-      margin-right: 25%;
-      }
+
+
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-@media (min-width: 1060px) {
+@media (max-width: 600px) {
+
+  .nekodu-team-img{
+    max-width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (orientation:landscape)
+{
+  .nekodu-head-text{
+    text-align: center !important;
+    font-size: 3em !important;
+  }  
+  .nekodu-body-text{
+    font-size: 2em !important;
+  }  
+
+}
+
+@media screen and (orientation:portrait)
+{
   .nekodu-head-text{
 
-    font-size: 4.5em !important;
+    font-size: 2.5em !important;
+    text-align: center !important;
+    line-height: 1 !important;
+  
   }  
+  .nekodu-body-text{
+    font-size: 1.5em !important;
+  }  
+
+  .nekodu-team-img{
+    max-width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+
 }
+
+
+
 
 .copyright-text{
   text-align: center;
